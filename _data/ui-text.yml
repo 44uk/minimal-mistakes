@@ -927,6 +927,51 @@ pl: &DEFAULT_PL
 da-PL:
   <<: *DEFAULT_PL
 
+# Japanese
+# ------
+ja: &DEFAULT_JA
+  page                       : "ページ"
+  pagination_previous        : "前へ"
+  pagination_next            : "次へ"
+  breadcrumb_home_label      : "ホーム"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle Menu"
+  toc_label                  : "On This Page"
+  ext_link_label             : "ダイレクトリンク"
+  less_than                  : "less than"
+  minute_read                : "分で読めます"
+  share_on_label             : "シェアする"
+  meta_label                 :
+  tags_label                 : "タグ:"
+  categories_label           : "カテゴリ:"
+  date_label                 : "更新日:"
+  comments_label             : "コメントを残す"
+  comments_title             : "コメント"
+  more_label                 : "Learn More"
+  related_label              : "こちらの記事もどうぞ"
+  follow_label               : "フォロー:"
+  feed_label                 : "フィード"
+  powered_by                 : "Powered by"
+  website_label              : "ウェブサイト"
+  email_label                : "メール"
+  recent_posts               : "最近の投稿"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "あなたのメールアドレスは公開されません。必要な項目にはマークがあります。"
+  comment_form_comment_label : "コメント"
+  comment_form_md_info       : "Markdownを利用できます"
+  comment_form_name_label    : "名前"
+  comment_form_email_label   : "メールアドレス"
+  comment_form_website_label : "ウェブサイト(任意)"
+  comment_btn_submit         : "送信"
+  comment_btn_submitted      : "送信済み"
+  comment_success_msg        : "コメントありがとうございます。コメントは管理者の承認後に表示されます。"
+  comment_error_msg          : "エラーです。全ての必要項目を入力して再度送信してください。"
+  loading_label              : "読み込み中..."
+  search_placeholder_text    : "検索ワードを入力してください..."
+  results_found              : "検索結果"
+ja-JP:
+  <<: *DEFAULT_JA
+
 # Another locale
 # --------------
 #
